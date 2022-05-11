@@ -1,0 +1,308 @@
+/* -cambios que hice (gonza) cambie el diseño del boton line: 110 a 127
+-cambio del contenedor free-test-container-text line:106 a 109 
+-agregue una clase para el save the date"
+-alineacion de contenedor al centro de tercer seccion
+-font family agregada al bodys*/
+.body {
+    display: flex; 
+    flex-direction: column; 
+    font-family: 'Poppins', sans-serif; 
+    align-items: center;
+    font-weight: 300;
+
+}
+
+.wireframe-container {
+    border: 2px solid #E4051D;
+}
+
+.section-size {
+    width: 920px;
+    height: 495px;
+}
+
+.header-height {
+    height: 60px;
+}
+
+.border-bottom-red {
+    border-bottom: #E4051D 8px solid;
+}
+
+.logotype-layer {
+    z-index: 1;
+    position: relative;
+    margin: 20px;
+    top: -13px;
+}
+/* clase nueva */
+.logotype-layer-save {
+    z-index: 1;
+    position: relative;
+    float: inline-end;
+    margin-right: 5vh;
+
+}
+.ad-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;	
+}
+
+.animal-day-container { 
+    width: 400px;
+    margin-top: 45px;
+    padding-left: 40px;
+}
+
+.animal-day-container-img {
+    background: url(./img/heroe.png);
+    height: 411px;
+    background-size: cover;
+    background-position: center;
+}
+
+.h1-event {
+    font-family: 'Poppins', sans-serif; 
+    color: #E4051D;
+    margin-bottom: 0px;
+    font-size: 32px;
+}
+
+.h-hashtag {
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+}
+
+.margin-top-tenpx {
+    margin-top: 10px;
+}
+
+.free-tests-banner {
+    width: 920px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E4051D;
+    margin: 0px;
+}
+
+.free-tests-banner-title {
+    font-family: 'Poppins', sans-serif; 
+    margin: 2px;
+    color: #ffffff;
+}
+
+.content-banner h3{
+    font-family: 'Poppins', sans-serif;
+    margin: 2px;
+    color: #ffffff;
+    font-weight: normal;
+    text-align: center;
+}
+
+.free-tests-grid {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    height: 365px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.free-tests-container-img {
+    width: 100%;
+    height: 100%;
+    background: url("./img/perro.png");
+    background-size: cover;
+}
+
+.free-tests-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+
+.free-tests-enrollment-button {
+    font-family: 'Poppins', sans-serif; 
+    color: #ffffff;
+    background-color: transparent;
+    color: #E4051D;
+    width: 60%;
+    border-radius: 999px;
+    border: 1px solid #E4051D;
+    box-shadow: 0px 10px 10px rgb(0,0,0,0.5);
+    cursor:pointer;
+    margin-top: 40px;
+}
+.free-tests-enrollment-button:hover{
+    background-color: #e4051d;
+    box-shadow: #e4051d;
+    transition: all 0.5s ease;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.free-products-grid {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    width: 920px;
+    height: 495px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.free-products-container-img {
+    background: url(./img/foto.jpg);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.free-products-container-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: center;
+    margin-left: 20px; 
+}
+
+.discounts-text-container {
+    display: flex; 
+    justify-content: center; 
+    height: 68px;
+    margin-top: 40px;
+
+}
+
+.discounts-text-box {
+    width: 90%; 
+    border-bottom: 1px solid darkgrey;
+}
+
+.discounts-text-h1 {
+    display: flex;
+    justify-content: center; 
+    color: #E4051D;
+}
+
+.discounts-grid {
+    height: 417px; 
+    margin-top: 10px; 
+    display: grid;
+    grid-template-columns: 55% 30%; 
+    justify-content: space-evenly;
+}
+
+.discounts-container-img {
+    background: url(./img/product1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.discounts-container-text {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+}
+
+.margin-zero {
+    margin: 0px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.footer-container {
+    border-top: 8px solid #E4051D; 
+    border-bottom: 8px solid #E4051D; 
+    width: 920px;
+    height: 147px;
+}
+
+.footer-img {
+    background: url(./img/banners.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.network-container {
+    color: #998D8D; 
+    display: flex; 
+    width: 920px; 
+    justify-content: space-between; 
+    flex-direction: row;
+    align-items: center;
+}
+
+.network-text-padding-left {
+    padding-left: 40px;
+}
+
+.network-images-padding-left {
+    padding-right: 40px;
+}
+
+.network-logo-separe {
+    padding-right: 10px;
+}
+
+.network-row-flex-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.network-columns-flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.network-img-size {
+    width: 30px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* free-products-container-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px; */
+
+    /* .free-products-container-img {
+        background: url(./img/foto.jpg);
+          background-position-x: 0%;
+          background-position-y: 0%;
+          background-repeat: repeat;
+          background-size: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 430px;
+        margin-top: 40px;
+        margin-right: 40px; */
+/* 
+        animal-day-container {
+            width: 400px;
+            margin-top: 45px;
+            padding-left: 40px;
+          } */
